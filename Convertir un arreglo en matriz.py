@@ -14,6 +14,6 @@ def convertTo2DArray(nums: List[int]) -> List[List[int]]:
     
     return result
 
-# Pruebas
-print(convertTo2DArray([1,3,4,1,2,3,1]))  # [[1,3,4,2],[1,3],[1]]
-print(convertTo2DArray([1,2,3,4]))  # [[4,3,2,1]]
+
+print(convertTo2DArray([1,3,4,1,2,3,1])) 
+print(convertTo2DArray([1,2,3,4])) 
