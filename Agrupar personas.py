@@ -13,6 +13,6 @@ def groupThePeople(groupSizes: List[int]) -> List[List[int]]:
 
     return result
 
-# Pruebas
-print(groupThePeople([3,3,3,3,3,1,3]))  # [[5],[0,1,2],[3,4,6]]
-print(groupThePeople([2,1,3,3,3,2]))  # [[1],[0,5],[2,3,4]]
+
+print(groupThePeople([3,3,3,3,3,1,3]))  
+print(groupThePeople([2,1,3,3,3,2]))
