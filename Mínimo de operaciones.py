@@ -24,6 +24,6 @@ def minOperations(boxes: str) -> List[int]:
 
     return answer
 
-# Pruebas
-print(minOperations("110"))  # [1,1,3]
-print(minOperations("001011"))  # [11,8,5,4,3,4]
+
+print(minOperations("110"))  
+print(minOperations("001011"))  
