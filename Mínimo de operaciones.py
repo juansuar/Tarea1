@@ -6,7 +6,7 @@ def minOperations(boxes: str) -> List[int]:
     left_balls, left_moves = 0, 0
     right_balls, right_moves = 0, 0
 
-    # Contar bolas a la derecha
+   
     for i in range(n):
         if boxes[i] == '1':
             right_balls += 1
